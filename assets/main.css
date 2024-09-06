@@ -82,12 +82,6 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 
-.container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 0; 
-}
 
 
 
@@ -127,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     width: 100%; /* Ensure it spans the full width */
     position: absolute;
-    bottom: 45px; /* Fixed to the bottom of the container */
+    bottom: -60%; /* Fixed to the bottom of the container */
 }
 
 .chat-input .form-control {
